@@ -21,7 +21,7 @@ namespace Desafio
 
         private string ObterMelhorOpcao()
         {
-            return RelacaoPreco() <= 72 ? "Álcool" : "Gasolina";
+            return RelacaoPreco() >= 65 ? "Álcool" : "Gasolina";
         }
 
         private void Validar(double valorGasolina, double valorAlcool)
